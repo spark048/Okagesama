@@ -1,3 +1,10 @@
+////////////////////////////
+/////Project Name: Okagesama
+/////12.03.2017
+/////Written by Soonpart
+/////soonpart@gmail.com
+////////////////////////////
+
 #pragma once
 
 #include "ofMain.h"
