@@ -269,7 +269,7 @@ void ofApp::draw(){
     if(gameOver){
         ofSetColor(bg);
         string intro;
-        intro = "Congratulations.\nYou have spread enough of your shadow\n and safely obliterated yourself into it.\nNow you are nobody.";
+        intro = "Congratulations.\nYou have spread enough of your shadow\nand safely obliterated yourself into it.\nNow you are nobody.";
         ofDrawBitmapString(intro, ofGetWidth()/4, ofGetHeight()/3);
     }
     
