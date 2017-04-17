@@ -255,7 +255,7 @@ void ofApp::draw(){
     if(!playing){
         ofSetColor(0);
         string intro;
-        intro = "Keep your eyebrows at neutral position\nand open your mouth widely to start.";
+        intro = "Keep your eyebrows in a neutral position\nand open your mouth widely to start.";
         ofDrawBitmapString(intro, ofGetWidth()/4, ofGetHeight()/3);
         if(mouth > 3){
             eyebrowN = eyebrow;
@@ -269,7 +269,7 @@ void ofApp::draw(){
     if(gameOver){
         ofSetColor(bg);
         string intro;
-        intro = "Congratulations.\nYou have spread enough shadow where you\nsafely obliterate yourself into.\nNow you are nobody.";
+        intro = "Congratulations.\nYou have spread enough of your shadow\n and safely obliterated yourself into it.\nNow you are nobody.";
         ofDrawBitmapString(intro, ofGetWidth()/4, ofGetHeight()/3);
     }
     
